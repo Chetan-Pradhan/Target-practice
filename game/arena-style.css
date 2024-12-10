@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: crosshair;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: #1a1a1a;
+}
+.nav-timeline{
+    background-color: #198dff;
+    height: 4rem;
+    color: white;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    border: 1px solid #198dff;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+.space{
+    padding: 0px 10px 0px 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+a :hover{
+    cursor: pointer;
+}
+.hero-gameplay{
+    position: absolute;
+    top: 80px;
+    background-color: #212734;
+    height: 550px;
+    width: 1300px;
+}
+.hero-section{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.targets{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+}
+.hide{
+    visibility: hidden;
+}
+.start{
+    border: 1px solid white;
+    color: white;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
